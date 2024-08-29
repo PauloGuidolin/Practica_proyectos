@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+
+}
+
+/* CONT DONDE ESTA TODO LO DEL GRID */
+.cont {
+    /* background-color: bisque; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+
+        "it1 it2 it3 it7"
+        "it4 it2 it5 it7"
+        "it4 it6 it5 it8"
+
+    ;
+    gap: 10px;
+    padding: 20px;
+
+    img {
+        border-radius: 20px;
+    }
+
+    /* ALTOS Y ANCHOS  IMGS*/
+    .imagen-1 {
+        width: 300px;
+        height: 200px;
+
+
+    }
+
+    .imagen-2 {
+        width: 300px;
+        height: 531px;
+
+
+    }
+
+    /* ITEMS */
+    .item-1 {
+        grid-area: it1;
+    }
+
+    .item-2 {
+        grid-area: it2;
+    }
+
+    .item-3 {
+        grid-area: it3;
+    }
+
+    .item-4 {
+        grid-area: it4;
+    }
+
+    .item-5 {
+        grid-area: it5;
+    }
+
+    .item-6 {
+        grid-area: it6;
+    }
+
+    .item-7 {
+        grid-area: it7;
+    }
+
+    .item-8 {
+        grid-area: it8;
+    }
+}
